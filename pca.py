@@ -129,7 +129,6 @@ def main():
     #show(norm, target, "PCA Clássica")
     print(output)
     print("\n\n", classicPCA)
-    input()
     
     #Transforma os target em tipos binários: 0 0 1 (caso seja da classe 3, pro exemplo)
     targetNormalized= keras.utils.to_categorical(target, 3)
